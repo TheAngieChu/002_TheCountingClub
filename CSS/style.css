@@ -1,0 +1,99 @@
+html {
+    font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Raleway"; /* this should be the rest of the output you got from Google Fonts */
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(58, 233, 58);
+    text-shadow: 3px 3px 1px black;
+  }
+
+  h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+  }
+  
+  p {
+    color: white;
+    font-size: 20px;
+  }
+
+  body {
+    background-color: #000000;
+    background-image: url(woodenbkgd.jpg);
+    background-repeat: repeat;
+    padding: 20px 20px 20px 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+    /* /////// CONTAINER CUSTOMS */
+
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #b98f40;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px
+}
+
+.flexDiv {
+    text-align: center;
+    flex: 1;
+
+}
+
+div {
+    padding: 30px;
+    align-items: center;
+}
+
+
+  /* /////// INCREMENT BUTTON CUSTOMS */
+
+  .incrementButton {
+    background-color: #523203;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  .incrementButton:hover {
+    background-color: #8f3c23;
+  }
+
+
+  /* /////// RESET BUTTON CUSTOMS */
+
+.resetButton {
+    background-color: rgb(58, 233, 58);
+    border: none;
+    border-radius: 17px;
+    color: #523203;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  .resetButton:hover {
+    background-color: rgb(4, 116, 4);
+  }
+  
